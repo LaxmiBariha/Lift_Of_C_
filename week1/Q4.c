@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main() {
+    float p, c, b, m, co,  percentage ;
     printf("Enter the marks of Physics, Chemistry, Biology, Mathematics, Computer : ");
-    float p, c, b, m, co ;
+     
     scanf("%f %f %f %f %f", &p, &c, &b, &m, &co);
-    float percentage = (p+c+b+m+co)/5;
+    percentage = ((p+c+b+m+co)*100)/350 ;
     if (percentage>=90){
         printf("\n YOU HAVE SCORED GRADE A.");
     }
@@ -17,10 +18,10 @@ int main() {
         printf("\n YOU HAVE SCORED GRADE D.");
     }
     else if (percentage>=50){
-        printf("YOU HAVE SCORED GRADE E.");
+        printf("\n YOU HAVE SCORED GRADE E.");
     }
     else  {
-        printf("YOU HAVE SCORED GRADE F.");
+        printf("\n YOU HAVE SCORED GRADE F.");
     }
     return 0;
 }
