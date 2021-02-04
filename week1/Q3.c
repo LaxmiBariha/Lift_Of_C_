@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main() {
-    printf("Enter the radius of the circle: ");
+    
     float r, D,A, C;
+    printf("Enter the radius of the circle: ");
     scanf("%f", &r);
     D = 2*r;
     A= (22/7)*r*r;
