@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
-    printf("Enter the alphabet : ");
     char a;
+    printf("Enter the alphabet : ");
     scanf("%c", &a);
     switch(a){
         case 'a':
