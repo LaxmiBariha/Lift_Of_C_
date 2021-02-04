@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    printf("Enter two numbers: ");
     int a,b;
+    printf("Enter two numbers: ");
     scanf("%d %d", &a, &b );
     int s = a+b;
     int sub = a-b;
